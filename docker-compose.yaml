@@ -15,3 +15,7 @@ services:
 volumes:
   evolution_store:
   evolution_instances:
+networks:
+  evolution-net:
+    name: evolution-net
+    driver: bridge  
